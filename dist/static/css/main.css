@@ -1,0 +1,37 @@
+.player {
+  flex-grow: 1;
+}
+
+.shadow {
+    box-shadow: 0 0 15px rgba(0,0,0,1); /* Параметры тени */
+   }
+
+.player-block {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 600px;
+}
+
+.buttons-block {
+  background-color:black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.player-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+
+.player-button.indent {
+  flex-grow: 1;
+}
