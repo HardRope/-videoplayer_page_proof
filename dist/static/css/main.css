@@ -66,8 +66,30 @@
 
 .time-line {
   flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 5px;
+  border-radius: 2px;
 }
 
-.player-button.indent {
-  flex-grow: 1;
+.progress-line {
+  height: 5px;
+  border-radius: 2px;
+  color: #f8104d;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin-left: -5px;
+  margin-top: 4px;
+  background-color: #f8104d;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  display: inline-block;
 }
