@@ -1,5 +1,5 @@
 .player {
-  height: 556px;
+  height: 557.5px;
 }
 
 .shadow {
@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 44px;
+  flex-grow: 1;
 }
 
 .player-button {
@@ -29,8 +29,43 @@
   text-decoration: none;
   font-size: 20px;
   cursor: pointer;
+  width: 32px;
+  height: 35px;
+}
+
+.left-buttons {
+  align-content: flex-start;
+  margin-left: 1px;
+  padding: 1px;
+}
+
+.right-buttons {
+  align-content: flex-end;
+}
+
+.viewing-panel {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.timer {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
   width: 37px;
   height: 35px;
+}
+
+.time-line {
+  flex-grow: 1;
 }
 
 .player-button.indent {
