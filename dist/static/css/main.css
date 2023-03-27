@@ -50,6 +50,7 @@
   align-items: center;
   justify-content: center;
   margin: 4px;
+
 }
 
 .timer {
@@ -85,11 +86,22 @@
   height: 8px;
   width: 8px;
   margin-left: -5px;
-  margin-top: 4px;
+  vertical-align: -10%;
   background-color: #f8104d;
   border-radius: 50%;
   border-style: solid;
   border-width: 3px;
   border-color: white;
   display: inline-block;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+.viewing-panel:hover .dot {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
 }
